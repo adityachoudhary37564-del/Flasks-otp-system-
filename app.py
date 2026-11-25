@@ -10,11 +10,11 @@ from flask import Flask, render_template, request, redirect, url_for, flash, ses
 from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("FLASK_SECRET_KEY", "CHANGE-THIS-SECRET-KEY")
+app.secret_key = os.environ.get("FLASK_SECRET_KEY=GrowUp_Aditya_9xK7mP4vQ2wL8zR5tN6", "CHANGE-THIS-SECRET-KEY")
 
 EMAIL_USER = os.environ.get("opboy7127@gmail.com", "")
-EMAIL_PASSWORD = os.environ.get("orgvnpfs dfmsivko", "")
-OTP_SECRET = os.environ.get("OTP_SECRET", app.secret_key)
+EMAIL_PASSWORD = os.environ.get("ghtg fkod skkx argl", "")
+OTP_SECRET = os.environ.get("GrowUp_Aditya_9xK7mP4vQ2wL8zR5tN6", app.secret_key)
 
 # TESTING ONLY: RAM storage resets whenever the server restarts.
 users = {}       # email -> password hash
