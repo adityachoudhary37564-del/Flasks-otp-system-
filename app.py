@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY=GrowUp_Aditya_9xK7mP4vQ2wL8zR5tN6", "CHANGE-THIS-SECRET-KEY")
 
 EMAIL_USER = os.environ.get("opboy7127@gmail.com", "")
-EMAIL_PASSWORD = os.environ.get("ghtg fkod skkx argl", "")
+EMAIL_PASSWORD = os.environ.get("ghtgfkodskkxargl", "")
 OTP_SECRET = os.environ.get("GrowUp_Aditya_9xK7mP4vQ2wL8zR5tN6", app.secret_key)
 
 # TESTING ONLY: RAM storage resets whenever the server restarts.
